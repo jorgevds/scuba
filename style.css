@@ -3,16 +3,21 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
+
 /* @media screen and (max-width: 425px) { */
+
 .container {
   min-height: 100vh;
   background-color: #eeece8;
 }
+
 /* navbar */
+
 .navbar {
   display: flex;
   padding: 8px;
@@ -21,24 +26,31 @@ body {
   font-size: 1.5rem;
   font-style: italic;
 }
+
 .navbar li {
   margin: auto;
 }
+
 .navbar a {
   color: black;
   text-decoration: none;
 }
+
 .name {
   font: 200 2rem "Bangers", cursive;
 }
+
 .initial {
   font-size: 4rem;
 }
+
 .list-item {
   background-color: hsl(356, 21%, 60%);
   padding: 8px;
 }
+
 /* banner under nav */
+
 .banner {
   background-image: url("img/skyline-nyc.jpg");
   height: 70vh;
@@ -46,9 +58,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 10px solid black;
+  /* border-bottom: 10px solid black; */
   display: flex;
 }
+
 .header {
   margin: auto;
   margin-top: 80px;
@@ -58,16 +71,17 @@ body {
   justify-content: center;
   color: #eeece8;
 }
+
 /* first content div */
-.content-banner-one,
-.content-banner-four {
+
+.content-banner-one, .content-banner-four {
   background-color: #a37275;
   height: 300px;
   display: flex;
   align-items: center;
 }
-.content-one,
-.content-four {
+
+.content-one, .content-four {
   display: grid;
   background-color: #eeece8;
   height: 220px;
@@ -76,8 +90,8 @@ body {
   font: 600 1rem Helvetica, sans-serif;
   padding: 20px 0;
 }
-.icon-list,
-.testimonial-list {
+
+.icon-list, .testimonial-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   list-style: none;
@@ -85,30 +99,32 @@ body {
   margin: 0;
   letter-spacing: 0;
 }
-.icon,
-.testimonial {
+
+.icon, .testimonial {
   margin: auto;
 }
+
 .icon img {
   margin: 0;
   padding: 0;
   grid-template-columns: 1/1/1;
 }
-.icon h5,
-.testimonial h5 {
+
+.icon h5, .testimonial h5 {
   margin: auto;
   max-width: 75%;
 }
+
 /* second content div */
-.content-banner-two,
-.content-banner-five {
+
+.content-banner-two, .content-banner-five {
   background-color: #2e2631;
   height: 250px;
   display: flex;
   align-items: center;
 }
-.content-two,
-.content-five {
+
+.content-two, .content-five {
   display: flex;
   margin: auto;
   line-height: 10px;
@@ -120,8 +136,8 @@ body {
   justify-content: center;
   font: 600 1rem Helvetica, sans-serif;
 }
-.content-two button,
-.content-five button {
+
+.content-two button, .content-five button {
   padding: 20px;
   margin: auto;
   margin-top: 50px;
@@ -131,15 +147,18 @@ body {
   border: 3px double #a37275;
   background-color: #eeece8;
 }
+
 button a {
   color: inherit;
   text-decoration: none;
 }
+
 .content-banner-three {
   background-color: #a37275;
   height: 300px;
   padding: 35px 0 0 0;
 }
+
 .content-three {
   background-color: #eeece8;
   color: #2e2631;
@@ -149,36 +168,48 @@ button a {
   text-align: center;
   justify-content: center;
 }
+
 .content-three h3 {
   margin-top: 30px;
 }
+
 .testimonial-author {
   padding: 40px 0;
 }
 
-.content-banner-five {
-  background-color: transparent;
-  height: 70vh;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
-}
 .content-banner-four {
   height: auto;
   padding: 40px 0;
 }
+
 .content-four {
   height: auto;
 }
+
+.content-banner-five {
+  background-color: transparent;
+  min-height: 70vh;
+  height: auto;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.content-five h3 {
+  padding-top: 25px;
+}
+
 .tester-image {
   transform: scaleX(10%);
   height: auto;
 }
+
 .company-list {
   list-style: none;
   padding: 0;
   margin: 0;
   letter-spacing: 0;
 }
+
 .company h5 {
   margin: 10px 5px;
 }
@@ -195,26 +226,28 @@ button a {
   top: -15px;
   left: 80px;
 }
-.cta-none,
-.cta-div {
+
+.cta-none, .cta-div {
   position: relative;
   flex-direction: column;
   min-height: 250px;
   width: 220px;
   margin: auto;
-  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
   padding: 8px;
   background-color: #eeece8;
   border: 2px solid #a37275;
   border-top: none;
   transition: 0.5s ease-in;
 }
+
 .cta-none {
   display: none;
   transition: display 1.7s;
-
   animation: fadeout 0.7s forwards;
 }
+
 @keyframes fadeout {
   from {
     display: flex;
@@ -225,10 +258,13 @@ button a {
     opacity: 0;
   }
 }
+
 .cta-div {
   display: flex;
   animation: fadein 0.7s forwards;
+  box-shadow: 0 3px 5px 5px #a372753f;
 }
+
 @keyframes fadein {
   from {
     display: none;
@@ -239,27 +275,34 @@ button a {
     opacity: 1;
   }
 }
+
 .cta-form {
   transition: 0.5s ease-in;
   margin-top: 25px;
 }
+
 .cta-form label {
   display: block;
   color: black;
   margin-left: 12px;
   text-align: left;
 }
+
 .cta-form input {
   padding: 4px;
   margin: 15px 0;
+  border: 1px solid #a37275;
 }
+
 .cta-form button {
   margin-top: 5px;
   padding: 12px 30px;
 }
 
 /* footer */
+
 .footer {
   display: grid;
 }
-/* } */
+
+/*  */

@@ -1,137 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
-      rel="stylesheet"
-    />
-    <title>Scuba: servers voor boekhouders</title>
-  </head>
-  <body>
-    <nav>
-      <ul class="navbar">
-        <li class="name"><span class="initial">S</span>cuba</li>
-        <li class="list-item">
-          <a href="contact.html">contact</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <div class="container">
-        <div class="banner">
-          <h1 class="header">
-            Server software voor financiële bedrijven
-          </h1>
-        </div>
-        <div class="content-banner-one">
-          <div class="content-one">
-            <h3>Adembenemende software</h3>
-            <ul class="icon-list">
-              <li class="icon">
-                <img src="img/money.png" />
-                <h5>Omzet tot wel 66% omhoog na 4 weken!</h5>
-              </li>
-              <li class="icon">
-                <img src="img/employees.png" />
-                <h5>Werklast omlaag met 28%!</h5>
-              </li>
-              <li class="icon">
-                <img src="img/chart.png" />
-                <h5>Met de jaren meer waarde.</h5>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="content-banner-two">
-          <div class="content-two">
-            <div>
-              <h3>Ook op zoek naar meerwaarde?</h3>
-            </div>
-            <button><a href="#contact">Begin er vandaag nog aan</a></button>
-          </div>
-        </div>
-        <div class="content-banner-three">
-          <div class="content-three">
-            <h3>Lees hun verhalen</h3>
-            <ul class="testimonial-list">
-              <li class="testimonial">
-                <h5>"Coole shit"</h5>
-                <h5 class="testimonial-author">- Bill Gates</h5>
-              </li>
-              <li class="testimonial">
-                <h5>"Amai, handig"</h5>
-                <h5 class="testimonial-author">- Steve Jobs</h5>
-              </li>
-              <li class="testimonial">
-                <h5 title="Koreaans voor 'leuk hoor'">"그래도 좋은"</h5>
-                <h5 class="testimonial-author">- John Samsung</h5>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="content-banner-four">
-          <div class="content-four">
-            <h3>Nieuw leven in je bedrijf</h3>
-            <ul class="company-list">
-              <li class="companies">
-                <h5>
-                  Al 24 bedrijven met meer dan 1,5 miljoen collectieve
-                  gebruikers!
-                </h5>
-              </li>
-              <li></li>
-            </ul>
-          </div>
-        </div>
-        <div class="content-banner-five banner" id="contact">
-          <div class="content-five">
-            <div>
-              <h3>Waar wacht je nog op?</h3>
-              <button onclick="callToAction()">
-                Maak de sprong!
-              </button>
-            </div>
-            <div class="cta-none" id="cta">
-              <form class="cta-form">
-                <label for="naam">Ik ben:</label>
-                <input
-                  type="text"
-                  value=""
-                  placeholder="Uw naam"
-                  id="naam"
-                  required
-                />
-                <label for="email">hier beschikbaar:</label>
 
-                <input
-                  type="text"
-                  value=""
-                  placeholder="Uw emailadres"
-                  id="email"
-                  required
-                />
-                <button type="submit" value="submit" name="submit">
-                  Plons!
-                </button>
-              </form>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet" />
+  <title>Scuba: servers voor boekhouders</title>
+</head>
+
+<body>
+  <nav>
+    <ul class="navbar">
+      <li class="name"><span class="initial">S</span>cuba</li>
+      <li class="list-item">
+        <a href="contact.html">contact</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="banner">
+        <h1 class="header">
+          Server software voor financiële bedrijven
+        </h1>
+      </div>
+      <div class="content-banner-one">
+        <div class="content-one">
+          <h3>Adembenemende software</h3>
+          <ul class="icon-list">
+            <li class="icon">
+              <img src="img/money.png" />
+              <h5>Omzet tot wel 66% omhoog na 4 weken!</h5>
+            </li>
+            <li class="icon">
+              <img src="img/employees.png" />
+              <h5>Werklast omlaag met 28%!</h5>
+            </li>
+            <li class="icon">
+              <img src="img/chart.png" />
+              <h5>Met de jaren meer waarde.</h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-banner-two">
+        <div class="content-two">
+          <div>
+            <h3>Ook op zoek naar meerwaarde?</h3>
+          </div>
+          <button><a href="#contact">Begin er vandaag nog aan</a></button>
+        </div>
+      </div>
+      <div class="content-banner-three">
+        <div class="content-three">
+          <h3>Lees hun verhalen</h3>
+          <ul class="testimonial-list">
+            <li class="testimonial">
+              <h5>"Coole shit"</h5>
+              <h5 class="testimonial-author">- Bill Gates</h5>
+            </li>
+            <li class="testimonial">
+              <h5>"Amai, handig"</h5>
+              <h5 class="testimonial-author">- Steve Jobs</h5>
+            </li>
+            <li class="testimonial">
+              <h5 title="Koreaans voor 'leuk hoor'">"그래도 좋은"</h5>
+              <h5 class="testimonial-author">- John Samsung</h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-banner-four">
+        <div class="content-four">
+          <h3>Nieuw leven in je bedrijf</h3>
+          <ul class="company-list">
+            <li class="companies">
+              <h5>
+                Al 24 bedrijven met meer dan 1,5 miljoen collectieve
+                gebruikers!
+              </h5>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-banner-five banner" id="contact">
+        <div class="content-five">
+          <div>
+            <h3>Waar wacht je nog op?</h3>
+            <button onclick="callToAction()">
+              Maak de sprong!
+            </button>
+          </div>
+          <div class="cta-none" id="cta">
+            <form class="cta-form">
+              <label for="naam">Ik ben:</label>
+              <input type="text" value="" placeholder="Uw naam" id="naam" required />
+              <label for="email">hier beschikbaar:</label>
+
+              <input type="email" value="" placeholder="Uw emailadres" id="email" required />
+              <button type="submit" value="submit" name="submit">
+                Plons!
+              </button>
+            </form>
           </div>
         </div>
       </div>
-    </main>
-    <nav>
-      <ul class="navbar footer">
-        <li>
-          <a href="contact.html">contact</a>
-        </li>
-        <li>
-          © 2020 Scuba
-        </li>
-      </ul>
-    </nav>
-    <script src="script.js"></script>
-  </body>
+    </div>
+  </main>
+  <nav>
+    <ul class="navbar footer">
+      <li>
+        <a href="contact.html">contact</a>
+      </li>
+      <li>
+        © 2020 Scuba
+      </li>
+    </ul>
+  </nav>
+  <script src="script.js"></script>
+</body>
+
 </html>
